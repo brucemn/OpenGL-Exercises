@@ -1,6 +1,6 @@
 
 /*
-Assignment 2-2: OpenGL program that displays a colored rectangle object in the center of the screen.
+Rectangle: OpenGL program that displays a colored rectangle object in the center of the screen.
 It uses six vertexes defined with different color attribute from left top corner to clock-wise order
 (blue, red, green, green, red, blue).
 */
@@ -65,7 +65,7 @@ void main(int argc, char** argv)
 	glutInitDisplayMode(GLUT_RGB | GLUT_SINGLE); // Display mode.
 	glutInitWindowPosition(100, 100); // Top-left display-window position.
 	glutInitWindowSize(400, 400); // Display-window width and height.
-	glutCreateWindow("Assignment2-2"); // Create display window.
+	glutCreateWindow("Rectangle"); // Create display window.
 	init(); // Initialization procedure.
 	glutReshapeFunc(reshape);
 	glutDisplayFunc(display);

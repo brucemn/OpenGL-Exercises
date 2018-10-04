@@ -1,6 +1,6 @@
 
 /*
-Assignment 1:  OpenGL program that shows two intersecting lines.
+Lines: OpenGL program that shows two intersecting lines.
 */
 
 
@@ -35,7 +35,7 @@ void main(int argc, char** argv)
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB); // Display mode.
 	glutInitWindowPosition(50, 100); // Top-left display-window position.
 	glutInitWindowSize(400, 300); // Display-window width and height.
-	glutCreateWindow("Assignment 1"); // Create display window.
+	glutCreateWindow("Lines"); // Create display window.
 	init(); // Initialization procedure.
 	glutDisplayFunc(lineSegment); // Send graphics to display window.
 	glutMainLoop(); // Display everything and wait.

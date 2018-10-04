@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lines", "Lines\Lines.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rectangle", "Rectangle\Rectangle.vcxproj", "{76D95706-685F-402D-BE7A-5DA4662A277B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tetrahedron", "Tetrahedron\Tetrahedron.vcxproj", "{35E68EDC-1EF9-46CE-B72F-FEC51F71019C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{76D95706-685F-402D-BE7A-5DA4662A277B}.Release|x64.Build.0 = Release|x64
 		{76D95706-685F-402D-BE7A-5DA4662A277B}.Release|x86.ActiveCfg = Release|Win32
 		{76D95706-685F-402D-BE7A-5DA4662A277B}.Release|x86.Build.0 = Release|Win32
+		{35E68EDC-1EF9-46CE-B72F-FEC51F71019C}.Debug|x64.ActiveCfg = Debug|x64
+		{35E68EDC-1EF9-46CE-B72F-FEC51F71019C}.Debug|x64.Build.0 = Debug|x64
+		{35E68EDC-1EF9-46CE-B72F-FEC51F71019C}.Debug|x86.ActiveCfg = Debug|Win32
+		{35E68EDC-1EF9-46CE-B72F-FEC51F71019C}.Debug|x86.Build.0 = Debug|Win32
+		{35E68EDC-1EF9-46CE-B72F-FEC51F71019C}.Release|x64.ActiveCfg = Release|x64
+		{35E68EDC-1EF9-46CE-B72F-FEC51F71019C}.Release|x64.Build.0 = Release|x64
+		{35E68EDC-1EF9-46CE-B72F-FEC51F71019C}.Release|x86.ActiveCfg = Release|Win32
+		{35E68EDC-1EF9-46CE-B72F-FEC51F71019C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
